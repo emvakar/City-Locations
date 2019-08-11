@@ -1,0 +1,6 @@
+framework module DevHelper {
+  umbrella header "DevHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,41 @@
+PODS:
+  - AstrologyCalc (0.0.4):
+    - DevHelper
+  - DevHelper (1.0.0):
+    - KRProgressHUD (= 3.4.0)
+    - SnapKit (= 4.2.0)
+  - KRActivityIndicatorView (3.0.0)
+  - KRProgressHUD (3.4.0):
+    - KRActivityIndicatorView (= 3.0.0)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - AstrologyCalc (from `../../Frameworks/AstrologyCalc`)
+  - DevHelper (from `../../Frameworks/DevHelper`)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - SnapKit
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  AstrologyCalc:
+    :path: "../../Frameworks/AstrologyCalc"
+  DevHelper:
+    :path: "../../Frameworks/DevHelper"
+
+SPEC CHECKSUMS:
+  AstrologyCalc: a23cceba6844a77a7d138c1e36c487823361b26a
+  DevHelper: 5503628d2e760cfac6d5c1541b09063f01c5a7e8
+  KRActivityIndicatorView: c414000730a6f4969eeb354bee4f2aebc89c2c2e
+  KRProgressHUD: 79c8703f82179fe34b3602f10b30726f887983fa
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 93da02e3042a37df4dd0d8e060cd7129071b847b
+
+COCOAPODS: 1.7.1

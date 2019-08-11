@@ -1,0 +1,6 @@
+framework module AstrologyCalc {
+  umbrella header "AstrologyCalc-umbrella.h"
+
+  export *
+  module * { export * }
+}
