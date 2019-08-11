@@ -33,6 +33,7 @@
 		1C5807E823492137B488786A380E9DC1 /* TableControllerStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0248174579D74DE08DEDFE554EE84D /* TableControllerStates.swift */; };
 		1E56A2F2017433F0FEF3322B79292539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300EFC276B8A275778A4422B874DEEA3 /* Foundation.framework */; };
 		1EA9165590E31E2CA09BA60F8D8B4EF8 /* db_21.json in Resources */ = {isa = PBXBuildFile; fileRef = 56396C6A7842A1B96C91AAAD40671B8D /* db_21.json */; };
+		206492D3230037F0008BBE6A /* cities_coordinates.json in Resources */ = {isa = PBXBuildFile; fileRef = 206492D2230037F0008BBE6A /* cities_coordinates.json */; };
 		212652B2D34F18E17CAAF5BCE84D2124 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433CE293BB9812B07F3A4DA71F71F3C6 /* ConstraintMultiplierTarget.swift */; };
 		22BDD97B488335C58CA815841055C815 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402CF2B0942E4234AEBC3E31867A5413 /* Extensions.swift */; };
 		24A45EE057DA0851EF631C6B35FA1255 /* DHIconLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C66A73728B28224D5BF90DF4E574B8B /* DHIconLabelView.swift */; };
@@ -296,39 +297,40 @@
 
 /* Begin PBXFileReference section */
 		00A5B5E19B000D6017485EE1906A9B2A /* TableToolbarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableToolbarProtocols.swift; sourceTree = "<group>"; };
-		014066FC1612B8BFBA8456332EA09FD8 /* db_58.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_58.json; sourceTree = "<group>"; };
+		014066FC1612B8BFBA8456332EA09FD8 /* db_58.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_58.json; sourceTree = "<group>"; };
 		01B7E296ADCF8B0618D3DC0B97E0A6F7 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
-		0249383FFAC847EDFAE9CE252DD467D0 /* db_22.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_22.json; sourceTree = "<group>"; };
-		02687F8697EAA6A303127A04C7E2312A /* db_17.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_17.json; sourceTree = "<group>"; };
-		02BF438F656CF3191AFB1BEBE20852CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0249383FFAC847EDFAE9CE252DD467D0 /* db_22.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_22.json; sourceTree = "<group>"; };
+		02687F8697EAA6A303127A04C7E2312A /* db_17.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_17.json; sourceTree = "<group>"; };
+		02BF438F656CF3191AFB1BEBE20852CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0481EB353210BD1DE426CFEF179F67E3 /* BaseFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseFooterView.swift; sourceTree = "<group>"; };
 		04A972EA596F7EA7AA81565DBA991688 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
-		068C4FD555A0CAB32C3C7220F1AF04C7 /* db_63.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_63.json; sourceTree = "<group>"; };
+		068C4FD555A0CAB32C3C7220F1AF04C7 /* db_63.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_63.json; sourceTree = "<group>"; };
 		06A8FAD33E16C5161FFC9A3AE9229711 /* KRActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
 		06E254E0D0F966147EB5FDF8C5B5093C /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		07ACF82282771E929F704DCD3243413F /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
-		0844E1D250132DE5B7FF6E0635A154B8 /* db_52.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_52.json; sourceTree = "<group>"; };
+		0844E1D250132DE5B7FF6E0635A154B8 /* db_52.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_52.json; sourceTree = "<group>"; };
 		08B01970424ADCF4890BFAF945530DD0 /* Eclipse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Eclipse.swift; sourceTree = "<group>"; };
-		08EDA872E8CD923797261CC22C13F553 /* db_34.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_34.json; sourceTree = "<group>"; };
-		0A037925C1F25E33E50F48C1EA93AE60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		08EDA872E8CD923797261CC22C13F553 /* db_34.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_34.json; sourceTree = "<group>"; };
+		0A037925C1F25E33E50F48C1EA93AE60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0CFA4D0B70AA02B68542856AD012F900 /* DHString+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DHString+Extension.swift"; sourceTree = "<group>"; };
-		0E010BC86F47C5AA99373AC0E3CDEB43 /* db_25.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_25.json; sourceTree = "<group>"; };
-		0E15D46D3A068CC725881471261615D0 /* db_20.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_20.json; sourceTree = "<group>"; };
+		0E010BC86F47C5AA99373AC0E3CDEB43 /* db_25.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_25.json; sourceTree = "<group>"; };
+		0E15D46D3A068CC725881471261615D0 /* db_20.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_20.json; sourceTree = "<group>"; };
 		0EB42FA2576934990C224F2F33F02362 /* InnerKRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InnerKRProgressHUD.swift; path = KRProgressHUD/Classes/InnerKRProgressHUD.swift; sourceTree = "<group>"; };
 		0F9B835882120DFC928F38196D97CCD8 /* DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
-		104E6247A140C268487CBB34E604A975 /* db_29.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_29.json; sourceTree = "<group>"; };
+		104E6247A140C268487CBB34E604A975 /* db_29.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_29.json; sourceTree = "<group>"; };
 		10585A1F19827505A6B4C548910F2430 /* PlainModelSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlainModelSection.swift; sourceTree = "<group>"; };
 		116CEEBD9801544C193521DAE5222B47 /* DevHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DevHelper-umbrella.h"; sourceTree = "<group>"; };
 		1283F74786A41AC5DE633F10145DA609 /* KRProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		13F698BDBED681645F901B4E81229CFD /* DHCenteredCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DHCenteredCollectionView.swift; sourceTree = "<group>"; };
-		157FBD4AF626F2C9E7585799B4219396 /* db_16.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_16.json; sourceTree = "<group>"; };
-		15C8278D8EC3C23307721356F8EA7CF4 /* db_38.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_38.json; sourceTree = "<group>"; };
-		186C8AE9075F17412039BC45DB771A33 /* db_0.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_0.json; sourceTree = "<group>"; };
-		1BBA5020E016AF04A552E0FD688578E2 /* DevHelperAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DevHelperAssets.bundle; path = "DevHelper-DevHelperAssets.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C33CB84138510317C9CFF8E19C47C23 /* KRProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRProgressHUD.framework; path = KRProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		157FBD4AF626F2C9E7585799B4219396 /* db_16.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_16.json; sourceTree = "<group>"; };
+		15C8278D8EC3C23307721356F8EA7CF4 /* db_38.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_38.json; sourceTree = "<group>"; };
+		186C8AE9075F17412039BC45DB771A33 /* db_0.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_0.json; sourceTree = "<group>"; };
+		1BBA5020E016AF04A552E0FD688578E2 /* DevHelperAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevHelperAssets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C33CB84138510317C9CFF8E19C47C23 /* KRProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7423367FAB052D6F23B340296CD6FB /* DataBaseModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataBaseModels.swift; sourceTree = "<group>"; };
 		1D568E9DE8EFE83FD050B7CF1F1D96F9 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E09C20C127A361480FC34963B238F6C /* EclipseCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EclipseCalculator.swift; sourceTree = "<group>"; };
+		206492D2230037F0008BBE6A /* cities_coordinates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities_coordinates.json; sourceTree = "<group>"; };
 		221C82313A5E1D78DB4E180B946B9E1C /* FilterToolBarStruct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilterToolBarStruct.swift; sourceTree = "<group>"; };
 		25A6157B41EE331152CABDC1E65F4B24 /* TableController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		2939BF1667EBD3F9A107A7D73FF00341 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
@@ -342,17 +344,17 @@
 		2CDB52C616365AE365CD4CAD24DCB4E1 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		2D9128770FEA432D755C329CA629F250 /* AstrologyCalc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AstrologyCalc-dummy.m"; sourceTree = "<group>"; };
 		2ECFFC2CFCCB96F68B50D882E1FE8947 /* KRActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorView.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorView.swift; sourceTree = "<group>"; };
-		2F4D7606F9C249E40DF8548036CEF0B2 /* db_37.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_37.json; sourceTree = "<group>"; };
-		2F5827827D22BA0E28713EFD522506F3 /* db_36.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_36.json; sourceTree = "<group>"; };
+		2F4D7606F9C249E40DF8548036CEF0B2 /* db_37.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_37.json; sourceTree = "<group>"; };
+		2F5827827D22BA0E28713EFD522506F3 /* db_36.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_36.json; sourceTree = "<group>"; };
 		2F8EFEEBA7E6E128647E68EA8755A4BA /* Pods-Fetch Locations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fetch Locations.release.xcconfig"; sourceTree = "<group>"; };
 		300EFC276B8A275778A4422B874DEEA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		30A9602FF3621BABC1FD60BBDDE5C9A6 /* db_41.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_41.json; sourceTree = "<group>"; };
+		30A9602FF3621BABC1FD60BBDDE5C9A6 /* db_41.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_41.json; sourceTree = "<group>"; };
 		30FA9A97CA06A014E9C568A483A958C4 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		334127BB38DC3AA7A8EEA8C0D5B79100 /* DHUIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DHUIColor+Extension.swift"; sourceTree = "<group>"; };
 		355C4F708482B936EDFD4C40A62D3B2D /* ToolBarNotificationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToolBarNotificationView.swift; sourceTree = "<group>"; };
 		38EEE3D1F94F0A32E405EE938AF68EE3 /* DHView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DHView+Extension.swift"; sourceTree = "<group>"; };
 		39D944FBD33A46F165A5BF07C33F324A /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		3A3A8749EC71AE40999334B5B3E720F8 /* db_23.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_23.json; sourceTree = "<group>"; };
+		3A3A8749EC71AE40999334B5B3E720F8 /* db_23.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_23.json; sourceTree = "<group>"; };
 		3A9E1A71B7FBD966D772E98036A728ED /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		3ACF91A628B5D8A67422DC46037252F9 /* DHUILabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DHUILabel+Extension.swift"; sourceTree = "<group>"; };
 		3B51935DBE400038D620BF44FE53106A /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
@@ -363,74 +365,74 @@
 		42D0DF8A486AD62B29668CCB55EC6B28 /* KRProgressHUDIconType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDIconType.swift; path = KRProgressHUD/Classes/KRProgressHUDIconType.swift; sourceTree = "<group>"; };
 		433CE293BB9812B07F3A4DA71F71F3C6 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		455DBB7876CB14045992BB9E5DAAFAF6 /* AstrologyCalc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AstrologyCalc-prefix.pch"; sourceTree = "<group>"; };
-		46368120B98F36E009BCD2C44B80A9C6 /* db_50.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_50.json; sourceTree = "<group>"; };
+		46368120B98F36E009BCD2C44B80A9C6 /* db_50.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_50.json; sourceTree = "<group>"; };
 		483C376D35021E2153EC251D8E7CB9EB /* AstrologyModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AstrologyModel.swift; sourceTree = "<group>"; };
 		488BC18DEA5241FFDC25EE6E7144DA33 /* DevHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DevHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		490E0796B9E2B69F116BBCD416537222 /* FilterNotificationStruct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilterNotificationStruct.swift; sourceTree = "<group>"; };
 		4932199226F048AB57301D088CC81544 /* DevHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DevHelper.modulemap; sourceTree = "<group>"; };
-		49965AF07E3BD418A66633CD16229D23 /* db_62.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_62.json; sourceTree = "<group>"; };
+		49965AF07E3BD418A66633CD16229D23 /* db_62.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_62.json; sourceTree = "<group>"; };
 		4DECFD812185E98B1A8AF37FA81A54A3 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
-		4E0AF8BDDEBD29A746435BAC3489F262 /* db_19.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_19.json; sourceTree = "<group>"; };
-		4F30ECF6DDB90EF29A7733EC435B69BF /* db_11.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_11.json; sourceTree = "<group>"; };
+		4E0AF8BDDEBD29A746435BAC3489F262 /* db_19.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_19.json; sourceTree = "<group>"; };
+		4F30ECF6DDB90EF29A7733EC435B69BF /* db_11.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_11.json; sourceTree = "<group>"; };
 		4FED5711C98CFFA7A3D58EE45CDAE0C8 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		50B4D764B896CC7CA0FDEA860FA31E23 /* DevHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DevHelper.framework; path = DevHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50E2CBD48469E74D774F6FFD25B8A1CC /* db_9.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_9.json; sourceTree = "<group>"; };
+		50B4D764B896CC7CA0FDEA860FA31E23 /* DevHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DevHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E2CBD48469E74D774F6FFD25B8A1CC /* db_9.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_9.json; sourceTree = "<group>"; };
 		5139E83C1F8FC665E16179F91E863F66 /* Pods-Fetch Locations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fetch Locations.debug.xcconfig"; sourceTree = "<group>"; };
 		52E997882046369141F9B3B856D82D6A /* MoonTrajectory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MoonTrajectory.swift; sourceTree = "<group>"; };
-		5437DF1B7AD5F1E7BB9963D5851EDE9E /* db_35.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_35.json; sourceTree = "<group>"; };
-		5480182EA2284C9654F307FED5060FC7 /* db_54.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_54.json; sourceTree = "<group>"; };
+		5437DF1B7AD5F1E7BB9963D5851EDE9E /* db_35.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_35.json; sourceTree = "<group>"; };
+		5480182EA2284C9654F307FED5060FC7 /* db_54.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_54.json; sourceTree = "<group>"; };
 		55CCCAC626C7779DB7571E778D6073A2 /* MoonPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MoonPhase.swift; sourceTree = "<group>"; };
-		56396C6A7842A1B96C91AAAD40671B8D /* db_21.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_21.json; sourceTree = "<group>"; };
+		56396C6A7842A1B96C91AAAD40671B8D /* db_21.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_21.json; sourceTree = "<group>"; };
 		565D8C1F47036349C8863E24EED47632 /* DHDouble+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DHDouble+Extension.swift"; sourceTree = "<group>"; };
-		5669F1C58DF2C9FA293A9E03EFD9B29E /* db_7.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_7.json; sourceTree = "<group>"; };
+		5669F1C58DF2C9FA293A9E03EFD9B29E /* db_7.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_7.json; sourceTree = "<group>"; };
 		56D9FF98CC87420CA7062854CEE27E25 /* Pods-Fetch Locations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fetch Locations-dummy.m"; sourceTree = "<group>"; };
-		5716E7AE50F667E3B54EA03F46FE8614 /* db_40.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_40.json; sourceTree = "<group>"; };
+		5716E7AE50F667E3B54EA03F46FE8614 /* db_40.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_40.json; sourceTree = "<group>"; };
 		58016EE541EB4CE41238538AC76ADAC9 /* DHUIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DHUIImage+Extension.swift"; sourceTree = "<group>"; };
 		58AFA9CA79F6C07F17BC05AAB0514DAF /* KRProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		5931820C656993CC0B9D17B9F276C7DB /* db_3.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_3.json; sourceTree = "<group>"; };
+		5931820C656993CC0B9D17B9F276C7DB /* db_3.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_3.json; sourceTree = "<group>"; };
 		5A56ED892867ADDD9E312808F1275DE5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		5B222D95620035720E9E8E60736B99AE /* db_57.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_57.json; sourceTree = "<group>"; };
+		5B222D95620035720E9E8E60736B99AE /* db_57.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_57.json; sourceTree = "<group>"; };
 		5B830B0F8E1AB7120EFA72A41AD13812 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		5BA0C93C121069C655F677068931F0FC /* KRProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		5BEF08201C8479964F106842C59EC9CA /* MoonCalculatorManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MoonCalculatorManager.swift; sourceTree = "<group>"; };
 		5C21E98FC1A88AB1BDC0BF216709B1CB /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		5C9DC9A36D9CFEB557FC01687266A02E /* db_55.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_55.json; sourceTree = "<group>"; };
-		5E64231296EF202E2C212832DF5F9972 /* db_61.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_61.json; sourceTree = "<group>"; };
+		5C9DC9A36D9CFEB557FC01687266A02E /* db_55.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_55.json; sourceTree = "<group>"; };
+		5E64231296EF202E2C212832DF5F9972 /* db_61.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_61.json; sourceTree = "<group>"; };
 		5F32ED19BE856331AD0349064FEE88D6 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		5F8A54685A66DAC03EF7B1DE803CAC7D /* TableViewOptionsStruct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewOptionsStruct.swift; sourceTree = "<group>"; };
 		604C2AD5233ACF8020118823CB74769A /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
-		6178BBAD6CE8D789C729C8DE726BD6FB /* db_28.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_28.json; sourceTree = "<group>"; };
-		61B5DA9E3028EAB06E49643D8788D7C7 /* db_66.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_66.json; sourceTree = "<group>"; };
-		6269EE0C852839C8FC0F022C0A1CC326 /* db_64.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_64.json; sourceTree = "<group>"; };
+		6178BBAD6CE8D789C729C8DE726BD6FB /* db_28.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_28.json; sourceTree = "<group>"; };
+		61B5DA9E3028EAB06E49643D8788D7C7 /* db_66.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_66.json; sourceTree = "<group>"; };
+		6269EE0C852839C8FC0F022C0A1CC326 /* db_64.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_64.json; sourceTree = "<group>"; };
 		62BD8EB98D7F978FC964158B36C80F60 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		639D1DD90217B94153179969869D3A76 /* DataBaseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
-		6433BA531715242480ADACBF54D8F32D /* db_47.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_47.json; sourceTree = "<group>"; };
+		6433BA531715242480ADACBF54D8F32D /* db_47.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_47.json; sourceTree = "<group>"; };
 		658FDDB85E916EA56EE009CE2F8D029E /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
 		668F7E81914B6A5CEF57212F85123F15 /* TableConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableConfiguration.swift; sourceTree = "<group>"; };
 		677753D41974F58DD4FF17DF85011E6C /* ParsedModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParsedModel.swift; sourceTree = "<group>"; };
 		679F27D289667427C68B70AD68252421 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		67C3F18C4D9BB281C6B3962F42F3B186 /* AstrologyCalc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AstrologyCalc-Info.plist"; sourceTree = "<group>"; };
 		680DB4629D49F5DDC23600997050EFD6 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		682456FF486A0D3D5693F1285FC160B4 /* db_18.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_18.json; sourceTree = "<group>"; };
+		682456FF486A0D3D5693F1285FC160B4 /* db_18.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_18.json; sourceTree = "<group>"; };
 		6979F6A14543550F463E0298F4829E92 /* DHLoginInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DHLoginInputView.swift; sourceTree = "<group>"; };
 		69ACCA58349A8638F9EA62BCEC5FA721 /* Pods-Fetch Locations-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fetch Locations-Info.plist"; sourceTree = "<group>"; };
-		6ACE206BBD55ABBC1451AFE5B5CB41C5 /* db_48.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_48.json; sourceTree = "<group>"; };
+		6ACE206BBD55ABBC1451AFE5B5CB41C5 /* db_48.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_48.json; sourceTree = "<group>"; };
 		6B4BBB3E8692ECA4CE569EEB32A75495 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		6C66A73728B28224D5BF90DF4E574B8B /* DHIconLabelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DHIconLabelView.swift; sourceTree = "<group>"; };
 		6C9A0352377B115D65EF86399AC7C56B /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
-		6F451DA43F127D1C1671422954A725AE /* AstrologyCalc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AstrologyCalc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F451DA43F127D1C1671422954A725AE /* AstrologyCalc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AstrologyCalc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		714ABE7037FEAAED216DD061E9A542E9 /* TableFooterContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableFooterContainerView.swift; sourceTree = "<group>"; };
 		71EC9A27837833D6ADA816D101903EC4 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		71FE4DA335E949E49686A0A8A86821A8 /* MoonZodiacSign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MoonZodiacSign.swift; sourceTree = "<group>"; };
 		735E145526F7038F753C68D910957FD0 /* Pods-Fetch Locations-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fetch Locations-frameworks.sh"; sourceTree = "<group>"; };
 		7431C7B0C6DC867F075D57600CA9DE5F /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		74C5C4AA6E6CC7C488771480CE8A75D4 /* SearchBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
-		75034F704DEE065BC2E2A16827431DD3 /* db_53.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_53.json; sourceTree = "<group>"; };
-		78D1D073589331E16AE519323009DE1A /* db_56.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_56.json; sourceTree = "<group>"; };
+		75034F704DEE065BC2E2A16827431DD3 /* db_53.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_53.json; sourceTree = "<group>"; };
+		78D1D073589331E16AE519323009DE1A /* db_56.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_56.json; sourceTree = "<group>"; };
 		7AB93668CD4193D03983250B3A1E1C83 /* Pods-Fetch Locations-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fetch Locations-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D2C2ED481E1768FDB9C27CBB5666C65 /* PlainDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlainDataSource.swift; sourceTree = "<group>"; };
-		7E786AAF447EA932B6BF0220E52E1D47 /* parsing.json */ = {isa = PBXFileReference; includeInIndex = 1; path = parsing.json; sourceTree = "<group>"; };
-		7F3F7E9CACA9DE1FCB28733EE7226182 /* db_1.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_1.json; sourceTree = "<group>"; };
+		7E786AAF447EA932B6BF0220E52E1D47 /* parsing.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = parsing.json; sourceTree = "<group>"; };
+		7F3F7E9CACA9DE1FCB28733EE7226182 /* db_1.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_1.json; sourceTree = "<group>"; };
 		7FB8E468D3629974E584309A49D81391 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		81CB8716B6D0E198B716167C5C1E3157 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		81EAFB5AEB7BB7273F89A671C6DB0BEB /* AstrologyCalc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AstrologyCalc.xcconfig; sourceTree = "<group>"; };
@@ -439,98 +441,98 @@
 		86823BECB3B6033AEF4C4A86E42228CB /* DevHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DevHelper.xcconfig; sourceTree = "<group>"; };
 		86D67E3918DEDBA8F1725653942F82D1 /* DHHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DHHeaderView.swift; sourceTree = "<group>"; };
 		87FD7861716843DD6C374A9D79422AAE /* TableFooterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableFooterProtocol.swift; sourceTree = "<group>"; };
-		8CF3327AB0B0F7F35403A73703C43930 /* db_44.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_44.json; sourceTree = "<group>"; };
+		8CF3327AB0B0F7F35403A73703C43930 /* db_44.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_44.json; sourceTree = "<group>"; };
 		8D9BB9E334DA622D0B11A0E05E42EC20 /* TableViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		8E3F05CF1A4BF85DE860CD578539382D /* KRActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
 		8FB4902C0AD941F1E71E26896E203551 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		8FD0A02F147F00BDCA33F15805197D01 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		8FD3633BAAEB2FB4085A87FADB73A8D8 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRActivityIndicatorView.framework; path = KRActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D8C2B77208428E0977DE8CD387F8DB /* db_15.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_15.json; sourceTree = "<group>"; };
+		9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D8C2B77208428E0977DE8CD387F8DB /* db_15.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_15.json; sourceTree = "<group>"; };
 		957BA5C54FDD1B1154305E6809ADA382 /* TappableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TappableButton.swift; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E87BADBD04C03449BF3F693FF2EF24D /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRActivityIndicatorView/Classes/Extensions.swift; sourceTree = "<group>"; };
 		A1042591058AA623190A8040EDC44E97 /* KRProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FED0FD501954CA8EE3389B54C12946 /* DailyModelSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DailyModelSection.swift; sourceTree = "<group>"; };
-		A3E35D9F0F0E81B0ECC2CB61153A9C2C /* db_67.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_67.json; sourceTree = "<group>"; };
-		A6FD644708389F311264E1E44B77FA1F /* db_2.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_2.json; sourceTree = "<group>"; };
+		A3E35D9F0F0E81B0ECC2CB61153A9C2C /* db_67.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_67.json; sourceTree = "<group>"; };
+		A6FD644708389F311264E1E44B77FA1F /* db_2.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_2.json; sourceTree = "<group>"; };
 		A724181CA876843E384997160261E357 /* DHUIBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DHUIBuilder.swift; sourceTree = "<group>"; };
-		A7779E754A25927B28E17342E2FA85F1 /* DevHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DevHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7779E754A25927B28E17342E2FA85F1 /* DevHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DevHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A80FB9C5DD84E9F9D589F9A74B3B4068 /* Pods-Fetch Locations-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fetch Locations-acknowledgements.plist"; sourceTree = "<group>"; };
-		A96D4553A946757B6B9C038E1318DF89 /* db_30.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_30.json; sourceTree = "<group>"; };
-		A9D4A89C3785EEFA766B07D513B516FA /* AstrologyCalcAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AstrologyCalcAssets.bundle; path = "AstrologyCalc-AstrologyCalcAssets.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96D4553A946757B6B9C038E1318DF89 /* db_30.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_30.json; sourceTree = "<group>"; };
+		A9D4A89C3785EEFA766B07D513B516FA /* AstrologyCalcAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstrologyCalcAssets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB053C0517FF22CBEEF5798F5B754E5A /* DailyDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DailyDataSource.swift; sourceTree = "<group>"; };
-		AC6F615192846BA9B3F408BF5B1E4ADA /* db_6.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_6.json; sourceTree = "<group>"; };
-		AC792DE874FC6393F9083CD552261DA2 /* db_26.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_26.json; sourceTree = "<group>"; };
+		AC6F615192846BA9B3F408BF5B1E4ADA /* db_6.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_6.json; sourceTree = "<group>"; };
+		AC792DE874FC6393F9083CD552261DA2 /* db_26.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_26.json; sourceTree = "<group>"; };
 		AC7963356970C8EDBFF8CC6D4B64A5E5 /* KRActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRActivityIndicatorView.modulemap; sourceTree = "<group>"; };
 		AD27E34C0B4736F1426FB6DA8E4D5CC2 /* DHSegment+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DHSegment+Extension.swift"; sourceTree = "<group>"; };
 		ADA81E937004CA06AD775FBDA53DE85A /* KRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUD.swift; path = KRProgressHUD/Classes/KRProgressHUD.swift; sourceTree = "<group>"; };
 		AE3C53D86D7132856CF30E6C9198A03C /* Pods-Fetch Locations-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fetch Locations-umbrella.h"; sourceTree = "<group>"; };
-		B0F5D4B9812BEEFDB34FE9698093B645 /* db_33.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_33.json; sourceTree = "<group>"; };
+		B0F5D4B9812BEEFDB34FE9698093B645 /* db_33.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_33.json; sourceTree = "<group>"; };
 		B10A4505EF8034D2D32B54725DE9B440 /* KRProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRProgressHUD.modulemap; sourceTree = "<group>"; };
 		B2377BB8791DBF328F0B1E0B0A956501 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
-		B468FFA555E3DC91D1C1F8A5B69C4026 /* db_32.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_32.json; sourceTree = "<group>"; };
-		B6F2E853756F08434018593755CE2451 /* db_5.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_5.json; sourceTree = "<group>"; };
+		B468FFA555E3DC91D1C1F8A5B69C4026 /* db_32.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_32.json; sourceTree = "<group>"; };
+		B6F2E853756F08434018593755CE2451 /* db_5.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_5.json; sourceTree = "<group>"; };
 		B9D5AEDA1D1837DA5EB50760E4F00C38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BE6FA09AD707FE45D259C6922E1F9026 /* db_42.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_42.json; sourceTree = "<group>"; };
-		C1760A0AF2C230633E459D3920C9D5AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C23D0BFCFB4024CBD682DA460D201CE4 /* db_14.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_14.json; sourceTree = "<group>"; };
+		BE6FA09AD707FE45D259C6922E1F9026 /* db_42.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_42.json; sourceTree = "<group>"; };
+		C1760A0AF2C230633E459D3920C9D5AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C23D0BFCFB4024CBD682DA460D201CE4 /* db_14.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_14.json; sourceTree = "<group>"; };
 		C4B68DDC5FD474E24BC8C79C7A836D14 /* AstroUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AstroUtils.swift; sourceTree = "<group>"; };
 		C51E75097E885546DA0D1BC8BFA4E547 /* KRActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorViewStyle.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
 		C5E8AD1F2AD22F1BF14A2D625E6D3D11 /* AstrologyCalc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AstrologyCalc-umbrella.h"; sourceTree = "<group>"; };
-		C65DB39956C1E28CA486EE0B6E4E449A /* db_4.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_4.json; sourceTree = "<group>"; };
+		C65DB39956C1E28CA486EE0B6E4E449A /* db_4.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_4.json; sourceTree = "<group>"; };
 		C6C93F0FE5582A5C1A19098A77DC00D6 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		C7C742A4E82B6D3B63EBC30253E21514 /* KRProgressHUDViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDViewController.swift; path = KRProgressHUD/Classes/KRProgressHUDViewController.swift; sourceTree = "<group>"; };
-		C7EA3BA33C1200BDC31F75B870D23FEF /* db_8.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_8.json; sourceTree = "<group>"; };
+		C7EA3BA33C1200BDC31F75B870D23FEF /* db_8.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_8.json; sourceTree = "<group>"; };
 		C94FAEDCE2AE9F7850669B9AB6180424 /* KRActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
 		CAD0AEF2A6316B8A64523705506F5E98 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		CB49CDA79CA964775FE97AE5FA129A56 /* ResourceBundle-AstrologyCalcAssets-AstrologyCalc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AstrologyCalcAssets-AstrologyCalc-Info.plist"; sourceTree = "<group>"; };
 		CBA97A401A42E4C8714D21357E143B56 /* DHUITextView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DHUITextView+Extension.swift"; sourceTree = "<group>"; };
-		CBF08FD132FE1C61CC5310BBCF7E1393 /* db_49.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_49.json; sourceTree = "<group>"; };
+		CBF08FD132FE1C61CC5310BBCF7E1393 /* db_49.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_49.json; sourceTree = "<group>"; };
 		CD0D2749A647D15FC0DE5FECD0736AAC /* ToolBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToolBarView.swift; sourceTree = "<group>"; };
-		CF07BA6625014BF29FFC1AEDC4305146 /* db_65.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_65.json; sourceTree = "<group>"; };
+		CF07BA6625014BF29FFC1AEDC4305146 /* db_65.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_65.json; sourceTree = "<group>"; };
 		D311B50B26283808C19358957AA5E7D7 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		D4D96FA099E3A7ADC7051100705C4096 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		D5681902568E4FFB377E06611D9FE6D9 /* AstrologyCalc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AstrologyCalc.modulemap; sourceTree = "<group>"; };
-		D5A0D25973E2C216F773FA444863186E /* db_31.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_31.json; sourceTree = "<group>"; };
+		D5A0D25973E2C216F773FA444863186E /* db_31.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_31.json; sourceTree = "<group>"; };
 		D7A7605E02F197C753E6580853E5C691 /* DHThread+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DHThread+Extension.swift"; sourceTree = "<group>"; };
 		D9587E85CC99B87321693E94A275746E /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
-		D9CAE014EC8998A2B364AAD7CAA1A754 /* db_60.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_60.json; sourceTree = "<group>"; };
+		D9CAE014EC8998A2B364AAD7CAA1A754 /* db_60.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_60.json; sourceTree = "<group>"; };
 		DB51BE102F8FF2D4D4FA29AF9F3974AF /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		DB62EE28D147A28304E2DF539B4CAA1D /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		DC675F0D56482E4F57AFB2B9D7D9E426 /* DHUIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DHUIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
-		DCE839DFE17060E8BB7CE65F037FBEED /* db_45.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_45.json; sourceTree = "<group>"; };
-		DDF6A28097851C0DAAE1D1FF067C8EC1 /* db_59.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_59.json; sourceTree = "<group>"; };
+		DCE839DFE17060E8BB7CE65F037FBEED /* db_45.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_45.json; sourceTree = "<group>"; };
+		DDF6A28097851C0DAAE1D1FF067C8EC1 /* db_59.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_59.json; sourceTree = "<group>"; };
 		E0A669F0ECC6AA3CAE15EDB95D4B4211 /* Pods-Fetch Locations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fetch Locations.modulemap"; sourceTree = "<group>"; };
 		E1FBA4712F861428DE6E26B0D604E46A /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E391462C6E15820CED832BF1F63DB261 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
-		E3A604A1E070B456A205F3B038B3FC13 /* db_51.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_51.json; sourceTree = "<group>"; };
+		E3A604A1E070B456A205F3B038B3FC13 /* db_51.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_51.json; sourceTree = "<group>"; };
 		E41B59147C319F968BF44C6DC9E0CAE3 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		E530A4AD7BCCA9C07C1DACB8E536FAEA /* db_13.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_13.json; sourceTree = "<group>"; };
-		E5532BD14AD2B66F4F0E43B9C6360A8A /* db_24.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_24.json; sourceTree = "<group>"; };
-		E9032313FE7E9F52E0C06465B8B642FF /* db_39.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_39.json; sourceTree = "<group>"; };
+		E530A4AD7BCCA9C07C1DACB8E536FAEA /* db_13.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_13.json; sourceTree = "<group>"; };
+		E5532BD14AD2B66F4F0E43B9C6360A8A /* db_24.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_24.json; sourceTree = "<group>"; };
+		E9032313FE7E9F52E0C06465B8B642FF /* db_39.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_39.json; sourceTree = "<group>"; };
 		E9417D881B633A07A549449429B1E59F /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		E9C08C85183E92C2FA38C284598441C6 /* ImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
 		EAB56DBD88417BE0FEA3E69BAC6D312E /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD79EA277D42870086812B278D3BDA0 /* DevHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DevHelper-prefix.pch"; sourceTree = "<group>"; };
 		EBEEEF72CED5B86BEEED9877193CC9D1 /* CurtainView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CurtainView.swift; sourceTree = "<group>"; };
 		EE71985680EFF034ECD502002A4D09AF /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
-		EFCA8A364EC6342B4D070E01B436EDE3 /* Pods_Fetch_Locations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fetch_Locations.framework; path = "Pods-Fetch Locations.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F17F8D69B8D08EFD7FE0AAD4AB6F38B7 /* db_12.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_12.json; sourceTree = "<group>"; };
-		F2C947D35080D9E2EC1630D96C86468B /* db_43.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_43.json; sourceTree = "<group>"; };
-		F2D46DE65F9AFCB21F31EF87F00C5EBF /* db_27.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_27.json; sourceTree = "<group>"; };
+		EFCA8A364EC6342B4D070E01B436EDE3 /* Pods_Fetch_Locations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fetch_Locations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17F8D69B8D08EFD7FE0AAD4AB6F38B7 /* db_12.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_12.json; sourceTree = "<group>"; };
+		F2C947D35080D9E2EC1630D96C86468B /* db_43.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_43.json; sourceTree = "<group>"; };
+		F2D46DE65F9AFCB21F31EF87F00C5EBF /* db_27.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_27.json; sourceTree = "<group>"; };
 		F53ED0240EBE888B753E52EB17D01BDE /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		F5DCF2F39369423A854BA25BC57E6A7B /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		F60C39616A0040AC2BC640C94B3FE241 /* db_10.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_10.json; sourceTree = "<group>"; };
+		F60C39616A0040AC2BC640C94B3FE241 /* db_10.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_10.json; sourceTree = "<group>"; };
 		F6400F40BBF66A46F678F8257DE95CED /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
-		F66CDEFC557ACAB4349AF906EC16B8B8 /* db_46.json */ = {isa = PBXFileReference; includeInIndex = 1; path = db_46.json; sourceTree = "<group>"; };
+		F66CDEFC557ACAB4349AF906EC16B8B8 /* db_46.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = db_46.json; sourceTree = "<group>"; };
 		F75DFFB4DFB97C2758B90CC1B6C056AC /* KRProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		F7604D39AFBBE939B0066757FE8FDE5F /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		F7FF64D88CC8C597F5BAA7DD62616BA7 /* SunMoonCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SunMoonCalculator.swift; sourceTree = "<group>"; };
 		F83A08C2C37E9289C841AF32B5294D17 /* MoonModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MoonModel.swift; sourceTree = "<group>"; };
-		F943323850296357ADDDAC359085950E /* AstrologyCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AstrologyCalc.framework; path = AstrologyCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F943323850296357ADDDAC359085950E /* AstrologyCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstrologyCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1DD98D6AA22957CFB0CC99887E8E14 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		FF56ED9B88F2EE8BAC737857208AB8EA /* KRActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -708,7 +710,6 @@
 				0481EB353210BD1DE426CFEF179F67E3 /* BaseFooterView.swift */,
 				54A4CE1AE9887EBB660FF3448B966A72 /* SupportingViews */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -736,7 +737,6 @@
 				C51E75097E885546DA0D1BC8BFA4E547 /* KRActivityIndicatorViewStyle.swift */,
 				E8890CABE50765CAFACA20A38D84F0A2 /* Support Files */,
 			);
-			name = KRActivityIndicatorView;
 			path = KRActivityIndicatorView;
 			sourceTree = "<group>";
 		};
@@ -793,7 +793,6 @@
 				04A972EA596F7EA7AA81565DBA991688 /* UILayoutSupport+Extensions.swift */,
 				2EDEA6FD6AB8B63877CFABE23D1314C9 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -816,7 +815,6 @@
 				355C4F708482B936EDFD4C40A62D3B2D /* ToolBarNotificationView.swift */,
 				CD0D2749A647D15FC0DE5FECD0736AAC /* ToolBarView.swift */,
 			);
-			name = SupportingViews;
 			path = SupportingViews;
 			sourceTree = "<group>";
 		};
@@ -826,7 +824,6 @@
 				7D2C2ED481E1768FDB9C27CBB5666C65 /* PlainDataSource.swift */,
 				10585A1F19827505A6B4C548910F2430 /* PlainModelSection.swift */,
 			);
-			name = Plain;
 			path = Plain;
 			sourceTree = "<group>";
 		};
@@ -840,7 +837,6 @@
 				C7C742A4E82B6D3B63EBC30253E21514 /* KRProgressHUDViewController.swift */,
 				D85FFF4C766EEDBE5149ADA03DFFB8EC /* Support Files */,
 			);
-			name = KRProgressHUD;
 			path = KRProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -892,7 +888,6 @@
 				E391462C6E15820CED832BF1F63DB261 /* SwiftyJSON.swift */,
 				9D88DECBAB720E94A75A3D93B4440F9D /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -926,7 +921,6 @@
 				2A0248174579D74DE08DEDFE554EE84D /* TableControllerStates.swift */,
 				5F8A54685A66DAC03EF7B1DE803CAC7D /* TableViewOptionsStruct.swift */,
 			);
-			name = Configuration;
 			path = Configuration;
 			sourceTree = "<group>";
 		};
@@ -971,7 +965,6 @@
 			children = (
 				25A6157B41EE331152CABDC1E65F4B24 /* TableController.swift */,
 			);
-			name = TableController;
 			path = TableController;
 			sourceTree = "<group>";
 		};
@@ -1009,7 +1002,6 @@
 			children = (
 				FFDF72DEAE9B559B73DC3854152499F4 /* DataBase */,
 			);
-			name = AstrologyCalc;
 			path = AstrologyCalc;
 			sourceTree = "<group>";
 		};
@@ -1020,7 +1012,6 @@
 				00A5B5E19B000D6017485EE1906A9B2A /* TableToolbarProtocols.swift */,
 				2BD27DECE9604360CA74BDB3A464C666 /* TableVCProtocol.swift */,
 			);
-			name = Protocols;
 			path = Protocols;
 			sourceTree = "<group>";
 		};
@@ -1047,7 +1038,6 @@
 				9F30E1A75553A559DDFAEFBFD997378F /* TableController */,
 				310EA247D265C91872DC06662C879271 /* Views */,
 			);
-			name = Table;
 			path = Table;
 			sourceTree = "<group>";
 		};
@@ -1123,7 +1113,6 @@
 				C7EA3BA33C1200BDC31F75B870D23FEF /* db_8.json */,
 				50E2CBD48469E74D774F6FFD25B8A1CC /* db_9.json */,
 			);
-			name = jsons;
 			path = jsons;
 			sourceTree = "<group>";
 		};
@@ -1159,7 +1148,6 @@
 				AB053C0517FF22CBEEF5798F5B754E5A /* DailyDataSource.swift */,
 				A2FED0FD501954CA8EE3389B54C12946 /* DailyModelSection.swift */,
 			);
-			name = Daily;
 			path = Daily;
 			sourceTree = "<group>";
 		};
@@ -1174,7 +1162,6 @@
 				71FE4DA335E949E49686A0A8A86821A8 /* MoonZodiacSign.swift */,
 				677753D41974F58DD4FF17DF85011E6C /* ParsedModel.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -1204,9 +1191,9 @@
 		FFDF72DEAE9B559B73DC3854152499F4 /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
+				206492D2230037F0008BBE6A /* cities_coordinates.json */,
 				CAA817E8796A1CA097D9AE12F6436DDB /* jsons */,
 			);
-			name = DataBase;
 			path = DataBase;
 			sourceTree = "<group>";
 		};
@@ -1565,6 +1552,7 @@
 				5A781ED665D32FCE4186C64672167426 /* db_47.json in Resources */,
 				48F6B416CC1036EF74ECA72C3DA21E6E /* db_48.json in Resources */,
 				4BA09BBD4524E7B78D0EED6BF8017C19 /* db_49.json in Resources */,
+				206492D3230037F0008BBE6A /* cities_coordinates.json in Resources */,
 				D19B98A9B5052698A550B4DA70633861 /* db_5.json in Resources */,
 				5427C8300121BB35052BB5EE5EFEE070 /* db_50.json in Resources */,
 				19704BBE8D4AE7A305E9782A5F9078C1 /* db_51.json in Resources */,
